@@ -62,3 +62,16 @@
 //
 //
 //
+/* ========================
+        Removing Elements
+===========================*/
+// a. // MÅL: Kolla om det finns lika många x som o. case insensitive
+// b. // INPUTS: En sträng som innehåller bokstäver (små och stora bokstäver)
+// c. // RETURN: TRUE (tumme upp) om det är lika många, FALSE (tumme ner) om det inte är det
+//
+// d. STEG 1. Skapa två variabler som håller räkning på antal x och o
+//    STEG 2. Göra om sträng till små bokstäver så slipper vi bry oss om det något mer
+//    STEG 3. Räkna hur många det är.
+//    STEG 4. Ta en promenix och besök varje bokstav i strängen och kolla om det är x eller o.
+//    STEG 4 (Pågående promenad) . Om du stöter på ett x (göm dig i en buske) öka på variabeln x med 1. Om du hittar ett o, öka o med 1
+//    STEG 5. Jämförsdags! Är våra räknade x lika många som räknade o så returnerar vi TUMME UPP (true), annars blir det TUMME NER (false)
