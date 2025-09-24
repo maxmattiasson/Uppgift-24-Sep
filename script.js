@@ -30,9 +30,10 @@
 // c. // RETURN: Om en är udda samtidigt som en är jämn returnerar vi SANT, dom är kära
 //               I alla andra fall returnerar vi FALKST, dom är inte kära
 //
-// d.            OM vi delar båda med 2 och jämför om kvoten blir samma för båda blommorna
+// d.            OM vi delar båda med 2 och jämför om resten av kvoten blir samma för båda blommorna
 //               är dom antingen båda udda eller båda jämna, vi returnerar då falskt.
 //               Om kvoten är olika, är den ena udda och den andra jämn och vi returnerar SANT. LOVE WINS!
+//
 //
 
 /* ========================
